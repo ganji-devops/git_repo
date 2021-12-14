@@ -22,8 +22,7 @@ options{
    stage('CheckoutCode')
    {
      steps{
-	 
-
+	 git credentialsId: 'c5eb3cd9-4a5a-4502-887e-f20822be313c', url: 'https://github.com/ganji-devops/git_repo.git'
 	 }
    }
    
